@@ -8,12 +8,12 @@
 
 <body>
 	<main>
-		<h1>Registro del usuario</h1>
-		<form action="/Tienda/SrvRegistroUsuario" method="get">
+		<h1>Registro de usuarios</h1>
+		<form action="SrvRegistroUsuario" method="get">
 			<table>
 				<tr>
 					<td>
-						<label>User name:</label>
+						<label for="txtUser">User name:</label>
 					</td>
 					<td>
 						<input required="required" type="text" id="txtUser" name="user">
@@ -21,7 +21,7 @@
 				</tr>
 				<tr>
 					<td>
-						<label>Password:</label>
+						<label for="txtPass">Password:</label>
 					</td>
 					<td>
 						<input required="required" type="password" id="txtPass" name="pass">
