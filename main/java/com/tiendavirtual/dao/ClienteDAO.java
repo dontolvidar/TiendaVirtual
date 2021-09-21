@@ -4,7 +4,6 @@ import java.sql.SQLException;
 import java.sql.Statement;
 
 import com.tiendavirtual.dto.Cliente;
-import com.tiendavirtual.dto.Usuario;
 
 public class ClienteDAO {
 
@@ -24,12 +23,12 @@ public class ClienteDAO {
 			e.printStackTrace();
 		}
 	}
-	public void buscarUsuario() {
+	public void buscarCliente() {
 	}
 
-	public void actualizarUsuario() {
+	public void actualizarCliente() {
 	}
 
-	public void borrarUsuario() {
+	public void borrarCliente() {
 	}
 }
