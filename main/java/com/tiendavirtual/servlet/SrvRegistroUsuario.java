@@ -39,6 +39,7 @@ public class SrvRegistroUsuario extends HttpServlet {
 				UsuarioDAO userdao= new UsuarioDAO();
 				Usuario userobj= new Usuario(usuario, password);
 				userdao.insertarUsuario(userobj);
+				response.getWriter().append("Datos recibidos en el servidor!!!!").append(request.getContextPath());
 	}
 
 	/**
