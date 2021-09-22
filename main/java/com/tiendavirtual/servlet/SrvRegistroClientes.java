@@ -43,6 +43,7 @@ public class SrvRegistroClientes extends HttpServlet {
 			ClienteDAO dao= new ClienteDAO();
 			Cliente datos= new Cliente(cedula,nombre,direccion, telefono,email);
 			dao.insertarCliente(datos);
+			response.getWriter().append("Datos recibidos en el servidor!!!!").append(request.getContextPath());
 	}
 
 	/**
