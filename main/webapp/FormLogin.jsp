@@ -31,7 +31,7 @@
 			<input type="submit" value="Submit">
 		</form>
 		<br><br>
-		<a href="RegCliente.jsp">Registro cliente</a>
+		<a href="FormClientes.jsp">Registro cliente</a>
 	</main>
 </body>
 </html>
