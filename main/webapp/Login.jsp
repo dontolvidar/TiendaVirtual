@@ -1,11 +1,11 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title>Registrar usuario</title>
-
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
 </head>
-
 <body>
 	<main>
 		<h1>Registro del usuario</h1>
@@ -30,6 +30,8 @@
 			</table>
 			<input type="submit" value="Submit">
 		</form>
+		<br><br>
+		<a href="RegCliente.jsp">Registro cliente</a>
 	</main>
 </body>
 </html>

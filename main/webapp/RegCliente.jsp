@@ -1,11 +1,11 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-
+<html>
 <head>
-	<meta charset="utf-8">
-	<title></title>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
 </head>
-
 <body>
 	<main>
 		<h1>Registro del cliente</h1>
@@ -29,5 +29,4 @@
 		</form>
 	</main>
 </body>
-
 </html>
